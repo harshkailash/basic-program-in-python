@@ -1,0 +1,9 @@
+create database harsh;
+
+use harsh;
+
+create table student(name varchar(20), college varchar(20));
+
+insert into student values('harsh','vit'), ('arth','N/A');
+
+select * from student;
